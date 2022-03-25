@@ -12,6 +12,7 @@ router.post('/viewQuiz', user.viewQuestions);
 router.post('/result', user.examResults);
 router.post('/insertMarks', user.insertMarks);
 router.post('/update', user.updateDetails);
+router.post('/forgot', user.forgotPassword)
 //exporting
 
 

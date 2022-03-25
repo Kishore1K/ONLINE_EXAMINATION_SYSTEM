@@ -1,12 +1,20 @@
 {
-  "name": "PROJECT",
-  "version": "1.0.0",
-  "description": "",
+  "name": "online-examination-system",
+  "version": "1.0.1",
+  "description": "This project is a simple online examination system.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "KISHORE K",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kishore1K/ONLINE_EXAMINATION_SYSTEM.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kishore1K/ONLINE_EXAMINATION_SYSTEM/issues"
+  },
+  "homepage": "https://github.com/Kishore1K/ONLINE_EXAMINATION_SYSTEM#readme"
 }

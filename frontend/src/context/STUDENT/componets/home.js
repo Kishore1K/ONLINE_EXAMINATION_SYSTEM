@@ -3,11 +3,15 @@ import React from 'react';
 // import { Link } from 'react-router-dom';
 import axios from "axios";
 
+
+//import api key from .env file
+
 // fetch the Details of the Student from database and say hello to the user Name
 const Home = () => {
     const [student, setStudent] = React.useState([]);
     React.useEffect(() => {
-        axios.post('http://localhost:3001/student/profile', {            
+        
+        axios.post(`http://localhost:3001/student/profile`, {            
             email: localStorage.getItem("SLoginUser")
             })
             .then(res => {  

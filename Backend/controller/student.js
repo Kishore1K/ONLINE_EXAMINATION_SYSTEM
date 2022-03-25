@@ -250,3 +250,39 @@ exports.updateDetails = (req, res) => {
         }
     }
 )}
+
+
+//forgot password
+exports.forgotPassword = (req, res) => {
+    const mail = req.body.email;
+    const dob = req.body.dob;
+    const password = req.body.password;
+    console.log(mail, dob, password)
+    bcrypt.hash(password, 10, (err, hash) => {
+        if (err) {
+            return res
+            .json({
+                error: err
+            });
+        }
+        else {
+            db.query(`UPDATE staff SET password = ? WHERE EMAIL = ? and DOB = ?`, [hash, mail, dob],
+
+
+                (err, result) => {
+                    if (err) {
+                        return res
+                        .json({
+                            error: err
+                        });
+
+                    }
+                    else {
+                        return res
+                        .send(result);
+                    }
+                }
+            )
+        }
+    })
+}
