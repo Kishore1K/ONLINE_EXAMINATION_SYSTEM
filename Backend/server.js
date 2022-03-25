@@ -18,6 +18,21 @@ app.use('/faculty', require('./routes/faculty'));
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 15ef8b6a3505183c9d2bd5fa5a344eeda9ba849d
 app.listen(port, ()=>{
     console.log(`yey Your server is running in port ${port}`)
 })

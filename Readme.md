@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ONLINE EXAMINATION SYSTEM
 
 This project is a simple online examination system.
@@ -26,3 +27,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+=======
+
+>>>>>>> 15ef8b6a3505183c9d2bd5fa5a344eeda9ba849d
