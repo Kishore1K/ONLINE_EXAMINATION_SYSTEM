@@ -2,6 +2,11 @@
 
 This project is a simple online examination system.
 
+## To install Node Modules
+
+First Download The Files or Fork 
+
+### `npm install `
 
 ## Available Scripts
 
